@@ -4,7 +4,7 @@
 
 https://regex101.com/
 
-^[\d{16,16} -]+$ to find all numbers that have 16 digits, and may include a hyphen (-).
+## ^[\d{16,16} -]+$ to find all numbers that have 16 digits, and may include a hyphen (-).
 
 The string uses the ^ symbol to look for the beginning of the line.
 [ is the opening of the character set to look for these values.
@@ -23,7 +23,8 @@ The space between } and – tells the expression to look for a space.
 
 The string then looks for the end of the line using the $ symbol.
 
-^[AMHF].*$ to find all names, countries, and states beginning with A, M, H, and F.
+
+## ^[AMHF].*$ to find all names, countries, and states beginning with A, M, H, and F.
 
 The string uses the ^ symbol to look for the beginning of the line.
 
@@ -31,7 +32,7 @@ The string uses the ^ symbol to look for the beginning of the line.
 
 .*$ completes the string until the end of the line.
 
-^\(\d+\).*$ to find all phone numbers.
+## ^\(\d+\).*$ to find all phone numbers.
 
 The string uses the ^ symbol to look for the beginning of the line.
 
@@ -43,10 +44,9 @@ The string uses the ^ symbol to look for the beginning of the line.
 
 .*$ completes the string until the end of the line.
 
-^3[47]\d{13}$ to find all American Express credit cards
+## ^3[47]\d{13}$ to find all American Express credit cards
 
 American Express card numbers start with 34 or 37 and have a total of 15 digits.
-
 
 The string uses the ^ symbol to look for the beginning of the line.
 
@@ -58,7 +58,7 @@ The string uses the ^ symbol to look for the beginning of the line.
 
 $ is the end of line.
 
-to find all Visa credit cards
+## to find all Visa credit cards
 
 ^4[0-9]{12}(\d{3})?$
 
@@ -72,7 +72,7 @@ The string uses the ^ symbol to look for the beginning of the line.
 
 $ is the end of line.
 
-to find all emails in the document
+## to find all emails in the document
 
 ^[\w._-]+@[\w._-]+\.[\w]{2,}$
 
